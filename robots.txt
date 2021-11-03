@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admincp/
+Disallow: /lib/
+Disallow: /permission.php
+Disallow: /.htaccess
+
+Allow: /

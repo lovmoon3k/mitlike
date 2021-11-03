@@ -1,0 +1,85 @@
+body{margin : 0px;line-height : 1.4;transition : .3s;font-family: 'Quicksand', sans-serif;}
+.body-text{font-family: 'Quicksand', sans-serif;background: #f7f7f7;}
+body img{max-width : 100%}
+
+/* Nav */
+.nav{padding : 3px 0;}
+.nav-head{background : #1565c0;color : #fff;text-align : center;
+}
+.nav-head h1{font-size : 24px}
+/* Nav */
+/* Notice */
+.notice{text-align: center;padding : 15px}
+
+/* end notice */
+
+/* Content */
+.content{background: #1565c0;max-width : 80%;margin: auto;padding: 2px;position: relative}
+.content h2{text-align : center;color : #fff}
+@media screen and (max-width : 900px)
+{
+    .content{max-width : 100%;}
+}
+.login{background: #fff;padding: 50px 12px}
+.login .login-notice{text-align: center;font-weight : 600}
+
+.logo-text{text-decoration: none;transition : .3s}
+a.logo-text:hover{color : red;transition : .3s}
+a.logo-text:visited{color : #42f45f;}
+/* BTN */
+.tool{text-align: center;padding : 10px}
+.btn{padding : 13px;
+    font-weight: 600;
+    text-transform: uppercase;text-decoration: none;border-radius: 4px;transition: .3s;border : 4px;cursor: pointer;margin-top : 5px}
+    .btn:hover{transition : .3s;letter-spacing: 1.3px}
+.btn-get{color : #fff;background: #0789c7; font-family: Quicksand!important;}
+.btn-tutorial{color:#fff;background: #EF5350; font-family: Quicksand!important;}
+.btn-vip{color:#fff;background: #26a69a; font-family: Quicksand!important;}
+@media screen and (max-width : 600px)
+{
+    .btn-vip{float:left;margin-top:15px;margin-left : 25%}
+}
+.tool input,.id-post .input-content,.input-content{width : 100%;padding: 4px;margin-top: 21px;border : 3px;border-top : 1px solid #0789c7;
+border-bottom : 1px solid #0789c7;text-align: center;height : 2.6rem;
+outline : none;font-size: 1rem;transition: .3s
+}
+
+.submit{border : 4px;font-family: Quicksand!important;margin-top : 21px;font-weight: 600;
+    font-size : 17px;cursor: pointer;transition: .3s;width:100%
+}
+.submit:hover{letter-spacing: 3px;transition: .3s}
+.login-facebook{
+    border-top : 1px solid #1565c0 .3;
+margin-top : 50px
+
+}
+.loginf {background: #1565c0;margin-top : 47px}
+
+
+/* End button  */
+
+/* end content */
+
+.select-auto{margin-top : 15px}
+.auto-box{max-width : 200px;text-align: center;display: inline-block;padding : 20px}
+.auto-box .btn{margin-top : 15px}
+.auto-box a{margin : auto;display: block}
+.select-auto img{
+    max-width : 200px;
+    margin-bottom : 20px;
+}
+
+.auto-comment a{background:#EF5350}
+.auto-follow a{background:#26a69a}
+
+
+.reactions select{display : block;
+    margin : auto;
+    background: #1565c0;
+    color:white;
+    font-family: Quicksand;
+    border : 4px;
+    font-weight: 600;
+    width : 100%;height : 30px;outline : none;border-top : 1px solid #0789c7;border-bottom : 1px solid #0789c7}
+.reactions section option{text-align: center;font-weight: 600;vertical-align: center;}
+.reactions h4{font-size : 27px;}

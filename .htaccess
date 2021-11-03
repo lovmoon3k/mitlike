@@ -1,0 +1,9 @@
+
+ErrorDocument 401 default
+ErrorDocument 403 default
+ErrorDocument 404 default
+ErrorDocument 405 default
+ErrorDocument 406 default
+ErrorDocument 500 default
+ErrorDocument 501 default
+ErrorDocument 503 default
